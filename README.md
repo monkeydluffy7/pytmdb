@@ -16,7 +16,7 @@ TMDB_API_KEY = "YOUR_API_KEY"
 
 ```
 tmdb = TheMovieDb()
-tmdb.get_info()
+tmdb.get_info("IMDB_ID_HERE")
 tmdb.get_videos()
 tmdb.get_images()
 tmdb.get_ott()
